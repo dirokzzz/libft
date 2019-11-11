@@ -14,7 +14,8 @@
 
 NAME = libft.a
 
-SRCS =	ft_free_array.c\
+SRCS =	ft_getnbr.c\
+		ft_free_array.c\
 		ft_lstiter.c\
 		ft_lstmap.c\
 		ft_lstdelone.c\

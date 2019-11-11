@@ -23,6 +23,7 @@ typedef struct		s_list
 	struct s_list		*next;
 }					t_list;
 
+int					ft_getnbr(char *s);
 int					get_next_line(const int fd, char **line);
 void				ft_free_array(void **arr);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
